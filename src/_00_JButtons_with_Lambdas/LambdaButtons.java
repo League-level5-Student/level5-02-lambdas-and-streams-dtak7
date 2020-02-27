@@ -1,3 +1,4 @@
+
 package _00_JButtons_with_Lambdas;
 
 import java.awt.FlowLayout;
@@ -39,13 +40,13 @@ public class LambdaButtons {
 		tellAJoke.addActionListener((ActionEvent e)->{
 			JOptionPane.showMessageDialog(null, "How do you know when a joke is a dad joke?");
 			try {
-				Thread.sleep(5000);
+				Thread.sleep(1000);
 			} catch (InterruptedException e1) {
 				e1.printStackTrace();
 			}
 			JOptionPane.showMessageDialog(null, "When it becomes APARENT");
 			try {
-				Thread.sleep(2000);
+				Thread.sleep(500);
 			} catch (InterruptedException e1) {
 				e1.printStackTrace();
 			}
