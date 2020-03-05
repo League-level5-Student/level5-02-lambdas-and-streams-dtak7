@@ -54,6 +54,15 @@ public class LambdaMethods {
 		}, "there are a lot of dots");
 		// 5. Call the printCustonMessage method using a lambda so that the String
 		// prints without any vowels.
+		printCustomMessage((s)->{
+			String fin="";
+			for(int i =0; i<s.length();i++) {
+				if(s.charAt(i)!='a'&&s.charAt(i)!='e'&&s.charAt(i)!='i'&&s.charAt(i)!='o'&&s.charAt(i)!='u'){
+					fin=fin+s.charAt(i);
+				}
+			}
+			System.out.println(fin);
+		},"there are no vowels in this sentence");
 
 	}
 
